@@ -5,31 +5,32 @@
 class Md < Formula
   desc "Markdown cli that enables efficiently exploring markdown content and extractin"
   homepage "https://github.com/kym6464/md"
-  url "https://github.com/kym6464/md/archive/refs/tags/v1.0.6.tar.gz"
-  sha256 "56897e14b89668ae7dd827b5a9d76a42fdb0f9375741dcf64360a8b5d1d3a531"
+  url "https://github.com/kym6464/md/archive/refs/tags/v1.0.7.tar.gz"
+  version "1.0.7"
+  sha256 "e8b6180b73711c497e89953449bc3b4a955603677de268a4389aa0a3bd817bd0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-darwin-amd64.tar.gz"
-      sha256 "fb72bed7acfc0a0d716a6f80dbea6ac554fb9cc0113ebb731894b30b4363f2c6"
+      url "https://github.com/kym6464/md/releases/download/v1.0.7/md-1.0.7-darwin-amd64.tar.gz"
+      sha256 "c2c0500bcbce4dff22cb8e989684d1f0b362e092028cfdcd75dc65364707e6f3"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-darwin-arm64.tar.gz"
-      sha256 "9d42b045d3fc1abe0a9b5d0b8c631b5470932d44bbc831cf3c6a22136932bfc7"
+      url "https://github.com/kym6464/md/releases/download/v1.0.7/md-1.0.7-darwin-arm64.tar.gz"
+      sha256 "7d319d8982e0e2cf582171b667829825306a2cae91e577e2888fd11b008558c3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-linux-amd64.tar.gz"
-      sha256 "ebd336249a84abe3583af279fc1c01a3f509d630868ea5108ff6110cdb3d0ec0"
+      url "https://github.com/kym6464/md/releases/download/v1.0.7/md-1.0.7-linux-amd64.tar.gz"
+      sha256 "361627497356f5203c6fc4f79121841cb81ebec46ce5e189d166bdf5bd76a15f"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-linux-arm64.tar.gz"
-      sha256 "1fb3e60998f54f07059975b45f6bc1470c47a156a818e56a7beb07f66454f67a"
+      url "https://github.com/kym6464/md/releases/download/v1.0.7/md-1.0.7-linux-arm64.tar.gz"
+      sha256 "6c71673c72106a4f8d674cd986c4fd83cf0963a1ffc62acad5782cc28505e218"
     end
   end
 
