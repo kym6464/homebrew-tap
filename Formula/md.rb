@@ -5,31 +5,31 @@
 class Md < Formula
   desc "Markdown cli that enables efficiently exploring markdown content and extractin"
   homepage "https://github.com/kym6464/md"
-  url "https://github.com/kym6464/md/archive/refs/tags/v1.0.5.tar.gz"
-  sha256 "f2652311038d674ae53af233dac6c54a5ca21a11a44e09a132a3d2028d0ce1bb"
+  url "https://github.com/kym6464/md/archive/refs/tags/v1.0.6.tar.gz"
+  sha256 "56897e14b89668ae7dd827b5a9d76a42fdb0f9375741dcf64360a8b5d1d3a531"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-darwin-amd64.tar.gz"
-      sha256 "8fd65c145f7e07b69d3ed9388657bd8de5af588e7df4317111096b493e1e3116"
+      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-darwin-amd64.tar.gz"
+      sha256 "fb72bed7acfc0a0d716a6f80dbea6ac554fb9cc0113ebb731894b30b4363f2c6"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-darwin-arm64.tar.gz"
-      sha256 "b4a95c607d08efa87e20f85757de61a30a7c6cc5a5314a1bddeb3171d7adbef4"
+      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-darwin-arm64.tar.gz"
+      sha256 "9d42b045d3fc1abe0a9b5d0b8c631b5470932d44bbc831cf3c6a22136932bfc7"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-linux-amd64.tar.gz"
-      sha256 "8c70c16dcc0cfc6d1546659fc40f9f75ef636be704b0b2af18d78e9516b5a0d6"
+      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-linux-amd64.tar.gz"
+      sha256 "ebd336249a84abe3583af279fc1c01a3f509d630868ea5108ff6110cdb3d0ec0"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-linux-arm64.tar.gz"
-      sha256 "3abbc2d4844c2078a3925d9fff29e6d6b7063582e7ae0c243f57ffdb9727a437"
+      url "https://github.com/kym6464/md/releases/download/v1.0.6/md-1.0.6-linux-arm64.tar.gz"
+      sha256 "1fb3e60998f54f07059975b45f6bc1470c47a156a818e56a7beb07f66454f67a"
     end
   end
 
