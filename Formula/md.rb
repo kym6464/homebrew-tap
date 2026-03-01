@@ -5,31 +5,31 @@
 class Md < Formula
   desc "Markdown cli that enables efficiently exploring markdown content and extractin"
   homepage "https://github.com/kym6464/md"
-  url "https://api.github.com/repos/kym6464/md/tarball/v1.0.4"
-  sha256 "a040b31cad06df0f67e9532a9198536f313bb2f8d3547326070d9c12979d06da"
+  url "https://github.com/kym6464/md/archive/refs/tags/v1.0.5.tar.gz"
+  sha256 "f2652311038d674ae53af233dac6c54a5ca21a11a44e09a132a3d2028d0ce1bb"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.4/md-1.0.4-darwin-amd64.tar.gz"
-      sha256 "9880084bcb92d7eba94209563fe47dfe43c24b4e5e9495f72d4543030398c71e"
+      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-darwin-amd64.tar.gz"
+      sha256 "8fd65c145f7e07b69d3ed9388657bd8de5af588e7df4317111096b493e1e3116"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.4/md-1.0.4-darwin-arm64.tar.gz"
-      sha256 "50bd9f5f95f16360afe8f0ec7656ada3f593c7d346b544f966b89c9c5298e914"
+      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-darwin-arm64.tar.gz"
+      sha256 "b4a95c607d08efa87e20f85757de61a30a7c6cc5a5314a1bddeb3171d7adbef4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.4/md-1.0.4-linux-amd64.tar.gz"
-      sha256 "8abe6f31782dc8f526cd41006a4dd22588b9119b7cf2e718f1faec95e3be1a97"
+      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-linux-amd64.tar.gz"
+      sha256 "8c70c16dcc0cfc6d1546659fc40f9f75ef636be704b0b2af18d78e9516b5a0d6"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.4/md-1.0.4-linux-arm64.tar.gz"
-      sha256 "120b937a31b10cf15c82ec4d4b84d2fae3b23bae4b773382a4f72b93c2268f05"
+      url "https://github.com/kym6464/md/releases/download/v1.0.5/md-1.0.5-linux-arm64.tar.gz"
+      sha256 "3abbc2d4844c2078a3925d9fff29e6d6b7063582e7ae0c243f57ffdb9727a437"
     end
   end
 
