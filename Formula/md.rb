@@ -5,32 +5,32 @@
 class Md < Formula
   desc "Markdown cli that enables efficiently exploring markdown content and extractin"
   homepage "https://github.com/kym6464/md"
-  url "https://github.com/kym6464/md/archive/refs/tags/v1.0.8.tar.gz"
-  version "1.0.8"
-  sha256 "74caa392c02d29c49d19bd0c800c26fddfb98b18fcaf81ae2b194e0833bc0d74"
+  url "https://github.com/kym6464/md/archive/refs/tags/v1.0.9.tar.gz"
+  version "1.0.9"
+  sha256 "de2679f15074b0909c425e1866040bd56fb9f209c44b375df48c3eb523a7a590"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.8/md-1.0.8-darwin-amd64.tar.gz"
-      sha256 "b84eb005c22df2d2d4a64e1b32b1b54438f3bcfd57c1d57c50671432590c14ea"
+      url "https://github.com/kym6464/md/releases/download/v1.0.9/md-1.0.9-darwin-amd64.tar.gz"
+      sha256 "4d2416a3c29dbe785d71938877d314909ed38025d5ffe55c1fb408f36f1f4e23"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.8/md-1.0.8-darwin-arm64.tar.gz"
-      sha256 "75b767c7ca3b30bf7b31312e50a6c21d08ec9bfbd6b6fae06011536da698e8c3"
+      url "https://github.com/kym6464/md/releases/download/v1.0.9/md-1.0.9-darwin-arm64.tar.gz"
+      sha256 "5e9fbd455d8064a9aea5b4aef7a81f4ac08141709a7f8725b378354c97816fc1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kym6464/md/releases/download/v1.0.8/md-1.0.8-linux-amd64.tar.gz"
-      sha256 "9290706b617a1fafe02ff71424390e64603e82251d545b9bb8e400c81141bac1"
+      url "https://github.com/kym6464/md/releases/download/v1.0.9/md-1.0.9-linux-amd64.tar.gz"
+      sha256 "522a693301343ad78ae1da6d85a925805b64a577cd750fbae42d7e2766179dc2"
     end
 
     on_arm do
-      url "https://github.com/kym6464/md/releases/download/v1.0.8/md-1.0.8-linux-arm64.tar.gz"
-      sha256 "ac9c251692aac7595ba3a86b4b0343e49d23a596c57b4a53978e4aedba0901d3"
+      url "https://github.com/kym6464/md/releases/download/v1.0.9/md-1.0.9-linux-arm64.tar.gz"
+      sha256 "c7dddbf2595b26cac45935cb7856d87246ca77b29f260642450369d1323f5c2a"
     end
   end
 
