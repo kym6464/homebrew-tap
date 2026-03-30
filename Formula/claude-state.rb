@@ -5,33 +5,33 @@
 class ClaudeState < Formula
   desc "Lightweight cli for building stateful claude code hooks"
   homepage "https://github.com/kym6464/claude-state"
-  url "https://github.com/kym6464/claude-state/archive/refs/tags/v0.1.4.tar.gz"
-  version "0.1.4"
-  sha256 "585cc58cde37916db99cb9c73869d54a991a8fbe459897e408356b64d7828703"
+  url "https://github.com/kym6464/claude-state/archive/refs/tags/v0.1.5.tar.gz"
+  version "0.1.5"
+  sha256 "1e19b8189954f7b2fcbe43fff6753a514b81fe78f89c4efe8b74c27079f7be5b"
 
   depends_on "jq"
 
   on_macos do
     on_intel do
-      url "https://github.com/kym6464/claude-state/releases/download/v0.1.4/claude-state-0.1.4-darwin-amd64.tar.gz"
-      sha256 "9941e245ce7e0e4acd811f3b97eaf9b5d65124674315f29c78078a3fef6a6e36"
+      url "https://github.com/kym6464/claude-state/releases/download/v0.1.5/claude-state-0.1.5-darwin-amd64.tar.gz"
+      sha256 "d009af75dbb77c4892b73895731cd3f4f6fea28bf1d32cb2d8255181304a4e8a"
     end
 
     on_arm do
-      url "https://github.com/kym6464/claude-state/releases/download/v0.1.4/claude-state-0.1.4-darwin-arm64.tar.gz"
-      sha256 "9941e245ce7e0e4acd811f3b97eaf9b5d65124674315f29c78078a3fef6a6e36"
+      url "https://github.com/kym6464/claude-state/releases/download/v0.1.5/claude-state-0.1.5-darwin-arm64.tar.gz"
+      sha256 "d009af75dbb77c4892b73895731cd3f4f6fea28bf1d32cb2d8255181304a4e8a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kym6464/claude-state/releases/download/v0.1.4/claude-state-0.1.4-linux-amd64.tar.gz"
-      sha256 "9941e245ce7e0e4acd811f3b97eaf9b5d65124674315f29c78078a3fef6a6e36"
+      url "https://github.com/kym6464/claude-state/releases/download/v0.1.5/claude-state-0.1.5-linux-amd64.tar.gz"
+      sha256 "d009af75dbb77c4892b73895731cd3f4f6fea28bf1d32cb2d8255181304a4e8a"
     end
 
     on_arm do
-      url "https://github.com/kym6464/claude-state/releases/download/v0.1.4/claude-state-0.1.4-linux-arm64.tar.gz"
-      sha256 "9941e245ce7e0e4acd811f3b97eaf9b5d65124674315f29c78078a3fef6a6e36"
+      url "https://github.com/kym6464/claude-state/releases/download/v0.1.5/claude-state-0.1.5-linux-arm64.tar.gz"
+      sha256 "d009af75dbb77c4892b73895731cd3f4f6fea28bf1d32cb2d8255181304a4e8a"
     end
   end
 
