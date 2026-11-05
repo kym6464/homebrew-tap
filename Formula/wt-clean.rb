@@ -6,6 +6,7 @@ class WtClean < Formula
   service do
     run opt_bin/"wt-clean"
     run_type :cron
+    process_type :background
     cron "0 10 * * *"
     environment_variables PATH: std_service_path_env
     log_path var/"log/wt-clean.log"
@@ -14,17 +15,17 @@ class WtClean < Formula
 
   desc "Worktrunk custom subcommand that removes merged worktrees and branches across al"
   homepage "https://github.com/kym6464/wt-clean"
-  url "https://github.com/kym6464/wt-clean/archive/refs/tags/v0.1.1.tar.gz"
-  version "0.1.1"
-  sha256 "7b7a08b0021d8705aac4f46fd5c0d866a175ff84d9af95ce0a2221a0fb7de17f"
+  url "https://github.com/kym6464/wt-clean/archive/refs/tags/v0.2.0.tar.gz"
+  version "0.2.0"
+  sha256 "2c1701521838e9da29735d881ba642d5b7e855d11f004b46f59adee1bba1d82e"
   license "MIT"
 
   depends_on "worktrunk"
 
   on_macos do
     on_arm do
-      url "https://github.com/kym6464/wt-clean/releases/download/v0.1.1/wt-clean-0.1.1-darwin-arm64.tar.gz"
-      sha256 "f8cde2a15def6c6bc9a63b51adaaf1b8e56979240bb4e95902df4c9652c6b87d"
+      url "https://github.com/kym6464/wt-clean/releases/download/v0.2.0/wt-clean-0.2.0-darwin-arm64.tar.gz"
+      sha256 "a38a08c52c29f2882046c2315e004c2f005c95fdc210b24f9bf0296dc4ccca73"
     end
   end
 
