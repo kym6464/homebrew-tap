@@ -15,17 +15,18 @@ class WtClean < Formula
 
   desc "Worktrunk custom subcommand that removes merged worktrees and branches across al"
   homepage "https://github.com/kym6464/wt-clean"
-  url "https://github.com/kym6464/wt-clean/archive/refs/tags/v0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "2c1701521838e9da29735d881ba642d5b7e855d11f004b46f59adee1bba1d82e"
+  url "https://github.com/kym6464/wt-clean/archive/refs/tags/v0.3.0.tar.gz"
+  version "0.3.0"
+  sha256 "1c21aa70d84220eaa002430cf7b410c9ddb7102caeaa8c9235ef0ceadd7666e2"
   license "MIT"
 
+  depends_on "gh"
   depends_on "worktrunk"
 
   on_macos do
     on_arm do
-      url "https://github.com/kym6464/wt-clean/releases/download/v0.2.0/wt-clean-0.2.0-darwin-arm64.tar.gz"
-      sha256 "a38a08c52c29f2882046c2315e004c2f005c95fdc210b24f9bf0296dc4ccca73"
+      url "https://github.com/kym6464/wt-clean/releases/download/v0.3.0/wt-clean-0.3.0-darwin-arm64.tar.gz"
+      sha256 "268dc9f31415b29b96811c833d4db39a1b82073da55d1bb2e5e36b143950eb40"
     end
   end
 
