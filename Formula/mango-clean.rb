@@ -15,15 +15,15 @@ class MangoClean < Formula
 
   desc "Deletes old mango recorder screenshots and videos on a schedule"
   homepage "https://github.com/kym6464/mango-clean"
-  url "https://github.com/kym6464/mango-clean/archive/refs/tags/v0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "d6acbd5c8385b9817fc854959f219e3b6c0b72baa6c5c9b6d96778faff9fd4fa"
+  url "https://github.com/kym6464/mango-clean/archive/refs/tags/v0.1.1.tar.gz"
+  version "0.1.1"
+  sha256 "cdc6e374a9e8aa2978d480771933d22ad254238643dc19ef7c656c8da318f5c7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kym6464/mango-clean/releases/download/v0.1.0/mango-clean-0.1.0-darwin-arm64.tar.gz"
-      sha256 "5df3caab6cc5cf8c76ed279803fb3d452680667e73ca92915e3416e00b5fced8"
+      url "https://github.com/kym6464/mango-clean/releases/download/v0.1.1/mango-clean-0.1.1-darwin-arm64.tar.gz"
+      sha256 "7f37b4b4258434662adbd76ffa90df2b8c70996811f05a25cbeb2cb238236ac6"
     end
   end
 
